@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "NavigateWithoutCookies",
+    "version": "1.0",
+  
+    "description": "Permet de naviguer sur les pages de certains sites sans accepter les cookies.",
+  
+    "icons": {
+      "48": "icons/48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://www.marmiton.org/*"],
+        "js": ["marmitonWithoutCookies.js"]
+      }
+    ]
+  
+  }
