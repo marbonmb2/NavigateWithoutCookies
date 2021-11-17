@@ -14,7 +14,7 @@ function checkForDocumentReady(){
     }
 
     //the document is ready, lets disabling popup
-    document.body.classList.remove("didomi-popup-open"); //active scrollbar
+    document.body.setAttribute( 'style', 'overflow: visible !important' ); //active scrollbar
     document.body.removeChild(e); //delete the popup
 
 }
