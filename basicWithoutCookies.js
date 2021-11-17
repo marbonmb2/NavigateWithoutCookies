@@ -1,3 +1,10 @@
+//////////////////////////////////////////
+//                                      //
+//      Works for the base pattern      //
+// with a popup and a disbled scrollbar //
+//                                      //
+//////////////////////////////////////////
+
 
 checkForDocumentReady();
 
